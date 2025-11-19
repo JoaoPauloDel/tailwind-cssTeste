@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="h-screen flex justify-center items-center bg-blue-200">
+    <form class="w-[300px] bg-white shadow-lg rounded-xl p-4">
+        <h2 class="text-2xl text-center text-blue-600 font-semibold mb-6">Seja Bem-Vindo</h2>
+        <label for="email" class="text-xs uppercase font-bold block text-blue-600 mb-2">Email</label>
+        <input id="email" type="text" placeholder="email@email.com"
+            class="w-full h-10 mb-4 border border-black/20 rounded pl-3 outline-2 outline-offset-2 outline-transparent focus:outline-blue-600 focus:border-blue-600 duration-150">
+        <label for="senha" class="text-xs uppercase font-bold block text-blue-600 mb-2">Senha</label>
+        <input id="senha" type="password" placeholder="********"
+            class="w-full h-10 mb-4 border border-black/20 rounded pl-3 outline-2 outline-offset-2 outline-transparent focus:outline-blue-600 focus:border-blue-600 duration-150">
+        <a href="" class="text-xs block my-5 text-center hover:text-blue-600">Esqueci minha senha</a>
+        <button class="w-full h-10 bg-blue-600 rounded text-white hover:bg-blue-800 duration-150 cursor-pointer hover:scale-105">Entrar</button>
+
+    </form>
+</body>
+
+</html>
